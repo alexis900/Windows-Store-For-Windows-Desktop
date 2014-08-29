@@ -247,6 +247,7 @@ Partial Class Form1
         '
         Me.CheckUpdatesToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.Icon
         Me.CheckUpdatesToolStripMenuItem.Name = "CheckUpdatesToolStripMenuItem"
+        Me.CheckUpdatesToolStripMenuItem.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.CheckUpdatesToolStripMenuItem.Size = New System.Drawing.Size(114, 20)
         Me.CheckUpdatesToolStripMenuItem.Text = "Check Updates"
         '
