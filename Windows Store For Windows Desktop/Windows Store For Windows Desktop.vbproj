@@ -258,6 +258,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\jap.png" />
+    <None Include="Resources\chi.png" />
+    <None Include="Resources\d1.png" />
+    <None Include="Resources\d.png" />
+    <None Include="Resources\f.png" />
+    <None Include="Resources\bandera-portugal.gif" />
     <None Include="Resources\dtlite.png" />
     <None Include="Resources\3151__bluestacks_app_player.png" />
     <None Include="Resources\dropbox.ico" />

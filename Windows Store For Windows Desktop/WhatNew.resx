@@ -118,7 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>0.0.1.0
+    <value>0.0.1.1
++Added Portugese Language
+-Bug Fixes
+
+0.0.1.0
 +Added Silverlight 5.1.30514 
 +Added CCleaner 4.16.4763
 +Added Speccy 1.2.6
@@ -179,13 +183,6 @@
 +Added Catalan Language
 +Added Catagory Label on Applications
 +New System of Updates
--Bug Fixes
-
-0.0.0.2
-+Added What's new?
-+Added Category "Web browser"
-+Added Flags on Languages
-+Updater changed on SourceForge not on the Web FTP
 -Bug Fixes</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />

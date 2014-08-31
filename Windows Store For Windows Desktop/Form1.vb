@@ -71,7 +71,7 @@ Public Class Form1
     End Sub
     Private Sub NewVersionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CheckUpdatesToolStripMenuItem.Click
         Try
-            System.Diagnostics.Process.Start("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0011.exe/download")
+            System.Diagnostics.Process.Start("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0012.exe/download")
         Catch
             'Code to hanle the error
         End Try
@@ -115,6 +115,7 @@ Public Class Form1
         SpanishToolStripMenuItem.Text = "Español"
         CatalanToolStripMenuItem.Text = "Catalán"
         GaliciaToolStripMenuItem.Text = "Gallego"
+        PortugeseToolStripMenuItem.Text = "Portugués"
         CheckUpdatesToolStripMenuItem.Text = "Buscar actualizaciones"
         ''Form 2''
         Form2.Text = "Descargador"
@@ -188,6 +189,7 @@ Public Class Form1
         SpanishToolStripMenuItem.Text = "Spanish"
         CatalanToolStripMenuItem.Text = "Catalan"
         GaliciaToolStripMenuItem.Text = "Galician"
+        PortugeseToolStripMenuItem.Text = "Portugese"
         CheckUpdatesToolStripMenuItem.Text = "Check Updates"
 
         ''Form 2''
@@ -262,6 +264,7 @@ Public Class Form1
         SpanishToolStripMenuItem.Text = "Espanyol"
         CatalanToolStripMenuItem.Text = "Català"
         GaliciaToolStripMenuItem.Text = "Gallego"
+        PortugeseToolStripMenuItem.Text = "Portuguès"
         CheckUpdatesToolStripMenuItem.Text = "Cerca actualitzacions"
         ''Form 2''
         Form2.Text = "Descarregador"
@@ -335,6 +338,7 @@ Public Class Form1
         SpanishToolStripMenuItem.Text = "Espainiako"
         CatalanToolStripMenuItem.Text = "Catalan"
         GaliciaToolStripMenuItem.Text = "Gallego"
+        PortugeseToolStripMenuItem.Text = "Portugesa"
         CheckUpdatesToolStripMenuItem.Text = "bilatu nahi eguneratzerik"
         ''Form 2''
         Form2.Text = "Downloader"
@@ -409,6 +413,7 @@ Public Class Form1
         SpanishToolStripMenuItem.Text = "Español"
         CatalanToolStripMenuItem.Text = "Catalán"
         GaliciaToolStripMenuItem.Text = "Gallego"
+        PortugeseToolStripMenuItem.Text = "Portugués"
         CheckUpdatesToolStripMenuItem.Text = "Buscar actualizacións"
         ''Form 2''
         Form2.Text = "Download"
@@ -446,6 +451,80 @@ Public Class Form1
         post.Button25.Text = "Descargar"
     End Sub
 
+    Private Sub PortugeseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PortugeseToolStripMenuItem.Click
+        ''Form 1''
+        Me.Text = "Windows Loja para o desktop de Windows"
+        'Baixar'
+        Button1.Text = "Baixar"
+        Button2.Text = "Baixar"
+        Button3.Text = "Baixar"
+        Button5.Text = "Baixar"
+        Button7.Text = "Baixar"
+        Button8.Text = "Baixar"
+        Button9.Text = "Baixar"
+        Button10.Text = "Baixar"
+        Button13.Text = "Baixar"
+        Button14.Text = "Baixar"
+        Button11.Text = "Baixar"
+        Button12.Text = "Baixar"
+        Button16.Text = "Baixar"
+        Button17.Text = "Baixar"
+        Button18.Text = "Baixar"
+        Button19.Text = "Baixar"
+        Button20.Text = "Baixar"
+        Button21.Text = "Baixar"
+        Button22.Text = "Baixar"
+        Button23.Text = "Baixar"
+        Button24.Text = "Baixar"
+        Button25.Text = "Baixar"
+        'Categorias'
+        Button4.Text = "Navegadores da Web"
+        'ToolStripMenu'
+        ToolStripMenuItem1.Text = "Configurações"
+        ToolStripMenuItem2.Text = "Sobre o que..."
+        ToolStripMenuItem3.Text = "Sair"
+        OpenDownloaderToolStripMenuItem.Text = "Downloader"
+        TranslatorToolStripMenuItem.Text = "Tradução"
+        EnglishToolStripMenuItem.Text = "Inglês"
+        SpanishToolStripMenuItem.Text = "Espanhol"
+        CatalanToolStripMenuItem.Text = "Catalão"
+        GaliciaToolStripMenuItem.Text = "Gallego"
+        CheckUpdatesToolStripMenuItem.Text = "Procurar atualizações"
+        ''Form 2''
+        Form2.Text = "Downloader"
+        Form2.Button1.Text = "Baixar"
+        Form2.Label2.Text = "Diretório"
+        Form2.MenuToolStripMenuItem.Text = "Configurações"
+        Form2.EditURLToolStripMenuItem.Text = "Editar URL"
+        Form2.UneditURLToolStripMenuItem.Text = "Deixar de editar o URL"
+        Form2.Button4.Text = "Abrir"
+        Form2.Button3.Text = "Abrir"
+        ''Web Browsers''
+        webbrowsers.Button1.Text = "Baixar"
+        webbrowsers.Button2.Text = "Baixar"
+        ''About that...''
+        AboutThis.Text = "Sobre o que..."
+        ''AboutThis
+        AboutThis.Button1.Text = "Ative modo de desenvolvedor"
+        AboutThis.Button2.Text = "Off modo de desenvolvedor"
+        'Post
+        post.Button1.Text = "Baixar"
+        post.Button2.Text = "Baixar"
+        post.Button3.Text = "Baixar"
+        post.Button7.Text = "Baixar"
+        post.Button8.Text = "Baixar"
+        post.Button9.Text = "Baixar"
+        post.Button11.Text = "Baixar"
+        post.Button12.Text = "Baixar"
+        post.Button14.Text = "Baixar"
+        post.Button16.Text = "Baixar"
+        post.Button17.Text = "Baixar"
+        post.Button19.Text = "Baixar"
+        post.Button23.Text = "Baixar"
+        post.Button24.Text = "Baixar"
+        post.Button25.Text = "Baixar"
+    End Sub
+
     Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
         AboutThis.Show()
     End Sub
@@ -468,7 +547,7 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim url As New System.Uri("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0011.exe/download")
+        Dim url As New System.Uri("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0012.exe/download")
         Dim req As System.Net.WebRequest
         req = System.Net.WebRequest.Create(url)
         Dim resp As System.Net.WebResponse
@@ -476,7 +555,7 @@ Public Class Form1
             resp = req.GetResponse()
             resp.Close()
             req = Nothing
-            MsgBox("Updates avaliable:" + "  0.0.1.1")
+            MsgBox("Updates avaliable:" + "  0.0.1.2")
         Catch ex As Exception
             req = Nothing
             MsgBox("No updates available or check your internet conexion")
@@ -580,4 +659,5 @@ Public Class Form1
     Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
 
     End Sub
+
 End Class

@@ -33,12 +33,6 @@ Partial Class Form1
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpenDownloaderToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TranslatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EnglishToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SpanishToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CatalanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EuskeraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GaliciaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CheckUpdatesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -83,6 +77,7 @@ Partial Class Form1
         Me.Button24 = New System.Windows.Forms.Button()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Button25 = New System.Windows.Forms.Button()
+        Me.JapaneseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox22 = New System.Windows.Forms.PictureBox()
         Me.PictureBox21 = New System.Windows.Forms.PictureBox()
         Me.PictureBox20 = New System.Windows.Forms.PictureBox()
@@ -102,6 +97,16 @@ Partial Class Form1
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.EnglishToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SpanishToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CatalanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EuskeraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GaliciaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PortugeseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FrenchToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GermanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChineseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CheckUpdatesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -203,53 +208,10 @@ Partial Class Form1
         '
         'TranslatorToolStripMenuItem
         '
-        Me.TranslatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem, Me.SpanishToolStripMenuItem, Me.CatalanToolStripMenuItem, Me.EuskeraToolStripMenuItem, Me.GaliciaToolStripMenuItem})
+        Me.TranslatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem, Me.SpanishToolStripMenuItem, Me.CatalanToolStripMenuItem, Me.EuskeraToolStripMenuItem, Me.GaliciaToolStripMenuItem, Me.PortugeseToolStripMenuItem, Me.FrenchToolStripMenuItem, Me.GermanToolStripMenuItem, Me.ChineseToolStripMenuItem, Me.JapaneseToolStripMenuItem})
         Me.TranslatorToolStripMenuItem.Name = "TranslatorToolStripMenuItem"
         Me.TranslatorToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
         Me.TranslatorToolStripMenuItem.Text = "Translator"
-        '
-        'EnglishToolStripMenuItem
-        '
-        Me.EnglishToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.gb
-        Me.EnglishToolStripMenuItem.Name = "EnglishToolStripMenuItem"
-        Me.EnglishToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.EnglishToolStripMenuItem.Text = "English"
-        '
-        'SpanishToolStripMenuItem
-        '
-        Me.SpanishToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.es
-        Me.SpanishToolStripMenuItem.Name = "SpanishToolStripMenuItem"
-        Me.SpanishToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.SpanishToolStripMenuItem.Text = "Spanish"
-        '
-        'CatalanToolStripMenuItem
-        '
-        Me.CatalanToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.cat
-        Me.CatalanToolStripMenuItem.Name = "CatalanToolStripMenuItem"
-        Me.CatalanToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.CatalanToolStripMenuItem.Text = "Catalan"
-        '
-        'EuskeraToolStripMenuItem
-        '
-        Me.EuskeraToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.pb
-        Me.EuskeraToolStripMenuItem.Name = "EuskeraToolStripMenuItem"
-        Me.EuskeraToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.EuskeraToolStripMenuItem.Text = "Euskera"
-        '
-        'GaliciaToolStripMenuItem
-        '
-        Me.GaliciaToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.gl
-        Me.GaliciaToolStripMenuItem.Name = "GaliciaToolStripMenuItem"
-        Me.GaliciaToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.GaliciaToolStripMenuItem.Text = "Galician"
-        '
-        'CheckUpdatesToolStripMenuItem
-        '
-        Me.CheckUpdatesToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.Icon
-        Me.CheckUpdatesToolStripMenuItem.Name = "CheckUpdatesToolStripMenuItem"
-        Me.CheckUpdatesToolStripMenuItem.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.CheckUpdatesToolStripMenuItem.Size = New System.Drawing.Size(114, 20)
-        Me.CheckUpdatesToolStripMenuItem.Text = "Check Updates"
         '
         'Label6
         '
@@ -310,7 +272,7 @@ Partial Class Form1
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(17, 9)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(142, 30)
+        Me.Button4.Size = New System.Drawing.Size(142, 73)
         Me.Button4.TabIndex = 16
         Me.Button4.Text = "Web Browser"
         Me.Button4.UseVisualStyleBackColor = True
@@ -318,7 +280,7 @@ Partial Class Form1
         'Button6
         '
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(17, 54)
+        Me.Button6.Location = New System.Drawing.Point(17, 88)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(142, 57)
         Me.Button6.TabIndex = 17
@@ -338,7 +300,7 @@ Partial Class Form1
         'Button15
         '
         Me.Button15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.Location = New System.Drawing.Point(17, 128)
+        Me.Button15.Location = New System.Drawing.Point(17, 162)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(142, 30)
         Me.Button15.TabIndex = 59
@@ -652,6 +614,14 @@ Partial Class Form1
         Me.Button25.Text = "Download"
         Me.Button25.UseVisualStyleBackColor = True
         '
+        'JapaneseToolStripMenuItem
+        '
+        Me.JapaneseToolStripMenuItem.Enabled = False
+        Me.JapaneseToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.jap
+        Me.JapaneseToolStripMenuItem.Name = "JapaneseToolStripMenuItem"
+        Me.JapaneseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.JapaneseToolStripMenuItem.Text = "Japanese"
+        '
         'PictureBox22
         '
         Me.PictureBox22.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.dtlite
@@ -842,6 +812,80 @@ Partial Class Form1
         Me.PictureBox4.TabIndex = 26
         Me.PictureBox4.TabStop = False
         '
+        'EnglishToolStripMenuItem
+        '
+        Me.EnglishToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.gb
+        Me.EnglishToolStripMenuItem.Name = "EnglishToolStripMenuItem"
+        Me.EnglishToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EnglishToolStripMenuItem.Text = "English"
+        '
+        'SpanishToolStripMenuItem
+        '
+        Me.SpanishToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.es
+        Me.SpanishToolStripMenuItem.Name = "SpanishToolStripMenuItem"
+        Me.SpanishToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SpanishToolStripMenuItem.Text = "Spanish"
+        '
+        'CatalanToolStripMenuItem
+        '
+        Me.CatalanToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.cat
+        Me.CatalanToolStripMenuItem.Name = "CatalanToolStripMenuItem"
+        Me.CatalanToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CatalanToolStripMenuItem.Text = "Catalan"
+        '
+        'EuskeraToolStripMenuItem
+        '
+        Me.EuskeraToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.pb
+        Me.EuskeraToolStripMenuItem.Name = "EuskeraToolStripMenuItem"
+        Me.EuskeraToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EuskeraToolStripMenuItem.Text = "Euskera"
+        '
+        'GaliciaToolStripMenuItem
+        '
+        Me.GaliciaToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.gl
+        Me.GaliciaToolStripMenuItem.Name = "GaliciaToolStripMenuItem"
+        Me.GaliciaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.GaliciaToolStripMenuItem.Text = "Galician"
+        '
+        'PortugeseToolStripMenuItem
+        '
+        Me.PortugeseToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.bandera_portugal
+        Me.PortugeseToolStripMenuItem.Name = "PortugeseToolStripMenuItem"
+        Me.PortugeseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PortugeseToolStripMenuItem.Text = "Portugese"
+        '
+        'FrenchToolStripMenuItem
+        '
+        Me.FrenchToolStripMenuItem.Enabled = False
+        Me.FrenchToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.f
+        Me.FrenchToolStripMenuItem.Name = "FrenchToolStripMenuItem"
+        Me.FrenchToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FrenchToolStripMenuItem.Text = "French"
+        '
+        'GermanToolStripMenuItem
+        '
+        Me.GermanToolStripMenuItem.Enabled = False
+        Me.GermanToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.d
+        Me.GermanToolStripMenuItem.Name = "GermanToolStripMenuItem"
+        Me.GermanToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.GermanToolStripMenuItem.Text = "German"
+        '
+        'ChineseToolStripMenuItem
+        '
+        Me.ChineseToolStripMenuItem.Enabled = False
+        Me.ChineseToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.chi
+        Me.ChineseToolStripMenuItem.Name = "ChineseToolStripMenuItem"
+        Me.ChineseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ChineseToolStripMenuItem.Text = "Chinese"
+        '
+        'CheckUpdatesToolStripMenuItem
+        '
+        Me.CheckUpdatesToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.Icon
+        Me.CheckUpdatesToolStripMenuItem.Name = "CheckUpdatesToolStripMenuItem"
+        Me.CheckUpdatesToolStripMenuItem.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.CheckUpdatesToolStripMenuItem.Size = New System.Drawing.Size(114, 20)
+        Me.CheckUpdatesToolStripMenuItem.Text = "Check Updates"
+        '
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources._20110811214850_Skype
@@ -879,7 +923,7 @@ Partial Class Form1
         Me.AutoScroll = True
         Me.AutoScrollMinSize = New System.Drawing.Size(747, 506)
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(731, 480)
+        Me.ClientSize = New System.Drawing.Size(782, 531)
         Me.Controls.Add(Me.PictureBox22)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Button25)
@@ -1065,5 +1109,10 @@ Partial Class Form1
     Friend WithEvents PictureBox22 As System.Windows.Forms.PictureBox
     Friend WithEvents Label22 As System.Windows.Forms.Label
     Friend WithEvents Button25 As System.Windows.Forms.Button
+    Friend WithEvents PortugeseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FrenchToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GermanToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ChineseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents JapaneseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
