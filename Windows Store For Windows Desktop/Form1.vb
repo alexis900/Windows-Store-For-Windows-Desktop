@@ -560,6 +560,17 @@ Public Class Form1
             req = Nothing
             MsgBox("No updates available or check your internet conexion")
         End Try
+        Dim logDirectoryProperties As System.IO.DirectoryInfo
+        'java
+        If My.Computer.FileSystem.DirectoryExists("C:\Program Files\Java\jre7") Then
+            logDirectoryProperties = My.Computer.FileSystem.GetDirectoryInfo("C:\Program Files\Java\jre7")
+            Button8.Visible = False
+            'ccleaner
+            If My.Computer.FileSystem.DirectoryExists("C:\CCleaner") Then
+                Button17.Visible = False
+            End If
+        End If
+
     End Sub
     Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
         webbrowsers.ShowDialog()
