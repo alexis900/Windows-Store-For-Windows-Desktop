@@ -547,7 +547,7 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim url As New System.Uri("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0012.exe/download")
+        Dim url As New System.Uri("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0013.exe/download")
         Dim req As System.Net.WebRequest
         req = System.Net.WebRequest.Create(url)
         Dim resp As System.Net.WebResponse
@@ -555,7 +555,7 @@ Public Class Form1
             resp = req.GetResponse()
             resp.Close()
             req = Nothing
-            MsgBox("Updates avaliable:" + "  0.0.1.2")
+            MsgBox("Updates avaliable:" + "  0.0.1.3")
         Catch ex As Exception
             req = Nothing
             MsgBox("No updates available or check your internet conexion")
