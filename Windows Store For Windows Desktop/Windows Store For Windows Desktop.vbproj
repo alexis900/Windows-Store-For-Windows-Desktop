@@ -179,6 +179,12 @@
     <Compile Include="WhatNew.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="WindowsVer.Designer.vb">
+      <DependentUpon>WindowsVer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsVer.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AboutThis.resx">
@@ -213,6 +219,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WhatNew.resx">
       <DependentUpon>WhatNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsVer.resx">
+      <DependentUpon>WindowsVer.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -258,6 +267,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\Windows_logo_-_2012.png" />
     <None Include="Resources\jap.png" />
     <None Include="Resources\chi.png" />
     <None Include="Resources\d1.png" />

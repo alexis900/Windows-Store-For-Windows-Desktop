@@ -1,6 +1,7 @@
 ﻿'747
 Public Class Form1
 
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Form2.TextBox1.Text = "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B3152A74F-5BAF-74F5-5D65-86E19C4B2B06%7D%26lang%3Des%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/update2/installers/ChromeSetup.exe"
         Form2.TextBox2.Text = "C:\Downloads\ChromeSetup.exe"
@@ -9,6 +10,9 @@ Public Class Form1
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Form2.TextBox1.Text = "https://download.mozilla.org/?product=firefox-stub&os=win&lang=es-ES"
+        Form2.TextBox2.Text = "C:\Downloads\Firefox Setup Stub Lastest.exe"
+        Form2.TextBox2.Text = "C:\Downloads\Firefox Setup Stub Lastest.exe"
+        Form2.TextBox2.Text = "C:\Downloads\Firefox Setup Stub Lastest.exe"
         Form2.TextBox2.Text = "C:\Downloads\Firefox Setup Stub Lastest.exe"
         Form2.ShowDialog()
     End Sub
@@ -577,12 +581,6 @@ Public Class Form1
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         post.ShowDialog()
     End Sub
-
-
-    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
-        ld.ShowDialog()
-    End Sub
-
     Private Sub OpenDownloaderToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OpenDownloaderToolStripMenuItem.Click
         Form2.ShowDialog()
     End Sub
@@ -651,13 +649,11 @@ Public Class Form1
         Form2.TextBox2.Text = "C:\Downloads\DTLite4491-0356.exe"
         Form2.ShowDialog()
     End Sub
-
-    Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
-
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        WindowsVer.ShowDialog()
     End Sub
 
-    Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
-
+    Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
+        ld.ShowDialog()
     End Sub
-
 End Class

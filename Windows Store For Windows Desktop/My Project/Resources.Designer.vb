@@ -483,6 +483,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Windows_logo___2012() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Windows_logo_-_2012", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property xjava_logo_png_pagespeed_ic__eoAavlF8iY() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("xjava-logo.png.pagespeed.ic_.eoAavlF8iY", resourceCulture)
