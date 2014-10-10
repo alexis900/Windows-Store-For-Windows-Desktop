@@ -178,7 +178,7 @@ Partial Class Form1
         Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.TranslatorToolStripMenuItem, Me.CheckUpdatesToolStripMenuItem})
         Me.MenuStrip2.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(977, 24)
+        Me.MenuStrip2.Size = New System.Drawing.Size(927, 24)
         Me.MenuStrip2.TabIndex = 15
         Me.MenuStrip2.Text = "MenuStrip2"
         '
@@ -218,42 +218,42 @@ Partial Class Form1
         '
         Me.EnglishToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.gb
         Me.EnglishToolStripMenuItem.Name = "EnglishToolStripMenuItem"
-        Me.EnglishToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.EnglishToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.EnglishToolStripMenuItem.Text = "English"
         '
         'SpanishToolStripMenuItem
         '
         Me.SpanishToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.es
         Me.SpanishToolStripMenuItem.Name = "SpanishToolStripMenuItem"
-        Me.SpanishToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.SpanishToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SpanishToolStripMenuItem.Text = "Spanish"
         '
         'CatalanToolStripMenuItem
         '
         Me.CatalanToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.cat
         Me.CatalanToolStripMenuItem.Name = "CatalanToolStripMenuItem"
-        Me.CatalanToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.CatalanToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.CatalanToolStripMenuItem.Text = "Catalan"
         '
         'EuskeraToolStripMenuItem
         '
         Me.EuskeraToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.pb
         Me.EuskeraToolStripMenuItem.Name = "EuskeraToolStripMenuItem"
-        Me.EuskeraToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.EuskeraToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.EuskeraToolStripMenuItem.Text = "Euskera"
         '
         'GaliciaToolStripMenuItem
         '
         Me.GaliciaToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.gl
         Me.GaliciaToolStripMenuItem.Name = "GaliciaToolStripMenuItem"
-        Me.GaliciaToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.GaliciaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.GaliciaToolStripMenuItem.Text = "Galician"
         '
         'PortugeseToolStripMenuItem
         '
         Me.PortugeseToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.bandera_portugal
         Me.PortugeseToolStripMenuItem.Name = "PortugeseToolStripMenuItem"
-        Me.PortugeseToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.PortugeseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PortugeseToolStripMenuItem.Text = "Portugese"
         '
         'FrenchToolStripMenuItem
@@ -261,7 +261,7 @@ Partial Class Form1
         Me.FrenchToolStripMenuItem.Enabled = False
         Me.FrenchToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.f
         Me.FrenchToolStripMenuItem.Name = "FrenchToolStripMenuItem"
-        Me.FrenchToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.FrenchToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.FrenchToolStripMenuItem.Text = "French"
         '
         'GermanToolStripMenuItem
@@ -269,7 +269,7 @@ Partial Class Form1
         Me.GermanToolStripMenuItem.Enabled = False
         Me.GermanToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.d
         Me.GermanToolStripMenuItem.Name = "GermanToolStripMenuItem"
-        Me.GermanToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.GermanToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.GermanToolStripMenuItem.Text = "German"
         '
         'ChineseToolStripMenuItem
@@ -277,7 +277,7 @@ Partial Class Form1
         Me.ChineseToolStripMenuItem.Enabled = False
         Me.ChineseToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.chi
         Me.ChineseToolStripMenuItem.Name = "ChineseToolStripMenuItem"
-        Me.ChineseToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.ChineseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ChineseToolStripMenuItem.Text = "Chinese"
         '
         'JapaneseToolStripMenuItem
@@ -285,7 +285,7 @@ Partial Class Form1
         Me.JapaneseToolStripMenuItem.Enabled = False
         Me.JapaneseToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.jap
         Me.JapaneseToolStripMenuItem.Name = "JapaneseToolStripMenuItem"
-        Me.JapaneseToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.JapaneseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.JapaneseToolStripMenuItem.Text = "Japanese"
         '
         'CheckUpdatesToolStripMenuItem
@@ -378,7 +378,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Location = New System.Drawing.Point(754, 52)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(173, 272)
+        Me.Panel1.Size = New System.Drawing.Size(173, 409)
         Me.Panel1.TabIndex = 19
         '
         'Button26
@@ -390,7 +390,6 @@ Partial Class Form1
         Me.Button26.TabIndex = 59
         Me.Button26.Text = "Linux Distros"
         Me.Button26.UseVisualStyleBackColor = True
-        Me.Button26.Visible = False
         '
         'Button15
         '
@@ -478,11 +477,11 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(413, 285)
+        Me.Label12.Location = New System.Drawing.Point(419, 284)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(85, 13)
+        Me.Label12.Size = New System.Drawing.Size(76, 13)
         Me.Label12.TabIndex = 51
-        Me.Label12.Text = "LibreOffice 4.2.5"
+        Me.Label12.Text = "LibreOffice 4.3"
         '
         'Button12
         '
@@ -550,11 +549,11 @@ Partial Class Form1
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(610, 285)
+        Me.Label14.Location = New System.Drawing.Point(623, 284)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(101, 13)
+        Me.Label14.Size = New System.Drawing.Size(74, 13)
         Me.Label14.TabIndex = 63
-        Me.Label14.Text = "CCleaner 4.16.4763"
+        Me.Label14.Text = "CCleaner 4.18"
         '
         'Button17
         '
@@ -579,9 +578,9 @@ Partial Class Form1
         Me.Label15.AutoSize = True
         Me.Label15.Location = New System.Drawing.Point(23, 423)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(70, 13)
+        Me.Label15.Size = New System.Drawing.Size(67, 13)
         Me.Label15.TabIndex = 72
-        Me.Label15.Text = "Speccy 1.2.6"
+        Me.Label15.Text = "Speccy 1.26"
         '
         'Label16
         '
@@ -640,11 +639,11 @@ Partial Class Form1
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(422, 423)
+        Me.Label19.Location = New System.Drawing.Point(417, 423)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(69, 13)
+        Me.Label19.Size = New System.Drawing.Size(78, 13)
         Me.Label19.TabIndex = 84
-        Me.Label19.Text = "FileZilla 3.9.0"
+        Me.Label19.Text = "FileZilla 3.9.0.4"
         '
         'Button22
         '
@@ -936,7 +935,7 @@ Partial Class Form1
         Me.AutoScroll = True
         Me.AutoScrollMinSize = New System.Drawing.Size(747, 506)
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(994, 531)
+        Me.ClientSize = New System.Drawing.Size(743, 465)
         Me.Controls.Add(Me.PictureBox22)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Button25)

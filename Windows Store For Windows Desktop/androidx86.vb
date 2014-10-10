@@ -1,8 +1,8 @@
 ﻿Public Class androidx86
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Form2.TextBox1.Text = "http://heanet.dl.sourceforge.net/project/android-x86/Release%204.4/android-x86-4.4-r1.iso"
-        Form2.TextBox2.Text = "C:\Downloads\android-x86-4.4-r1.iso"
+        Form2.TextBox1.Text = "http://sourceforge.net/projects/android-x86/files/Release%204.4/android-x86-4.4-RC2.iso/download"
+        Form2.TextBox2.Text = "C:\Downloads\android-x86-4.4-RC2.iso"
         Form2.ShowDialog()
     End Sub
 

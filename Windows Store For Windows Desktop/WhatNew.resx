@@ -118,7 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>0.0.1.1
+    <value>0.0.1.2
++Added Category in developer Mode "Windows Versions"
++Added Windows 10 (Technical Preview) on "Windows Versions"
++Added Windows "Linux Distros" on stable version
++Updated CCleaner to 4.18
++Updated FileZilla 3.9.0.4
++Updated LibreOffice 4.3
++Updated Android 4.4 to RC2
+
+0.0.1.1
 +Added Portugese Language
 -Bug Fixes
 
@@ -177,12 +186,6 @@
 0.0.0.4
 +Added Euskera Language
 +Added Galician Language
--Bug Fixes
-
-0.0.0.3
-+Added Catalan Language
-+Added Catagory Label on Applications
-+New System of Updates
 -Bug Fixes</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />

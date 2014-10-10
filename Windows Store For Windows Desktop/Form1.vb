@@ -47,8 +47,8 @@ Public Class Form1
         Form2.ShowDialog()
     End Sub
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
-        Form2.TextBox1.Text = "https://sourceforge.net/projects/gimp-win/files/GIMP%20%2B%20GTK%2B%20%28stable%20release%29/GIMP%202.8.10/gimp-2.8.10-setup.exe/download"
-        Form2.TextBox2.Text = "C:\Downloads\gimp-2.8.10-setup.exe"
+        Form2.TextBox1.Text = "http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe"
+        Form2.TextBox2.Text = "C:\Downloads\gimp-2.8.14-setup-1.exe"
         Form2.ShowDialog()
     End Sub
 
@@ -59,8 +59,8 @@ Public Class Form1
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        Form2.TextBox1.Text = "http://ftp.cixug.es/tdf/libreoffice/stable/4.2.5/win/x86/LibreOffice_4.2.5_Win_x86.msi"
-        Form2.TextBox2.Text = "C:\Downloads\LibreOffice_4.2.5_Win_x86.msi"
+        Form2.TextBox1.Text = "http://donate.libreoffice.org/home/dl/win-x86/4.3.2/es/LibreOffice_4.3.2_Win_x86.msi"
+        Form2.TextBox2.Text = "C:\Downloads\LibreOffice_4.3.2_Win_x86.msi"
         Form2.ShowDialog()
     End Sub
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
@@ -597,8 +597,8 @@ Public Class Form1
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
-        Form2.TextBox1.Text = "http://download.piriform.com/ccsetup416.exe"
-        Form2.TextBox2.Text = "C:\Downloads\ccsetup416.exe"
+        Form2.TextBox1.Text = "http://download.piriform.com/ccsetup418.exe"
+        Form2.TextBox2.Text = "C:\Downloads\ccsetup418.exe"
         Form2.ShowDialog()
     End Sub
 
@@ -627,8 +627,8 @@ Public Class Form1
     End Sub
 
     Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
-        Form2.TextBox1.Text = "http://cdn.sfrgfiles.com/?ic_user_id=128"
-        Form2.TextBox2.Text = "C:\Downloads\FileZilla_3.9.0.3_win32-setup.exe"
+        Form2.TextBox1.Text = "http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.9.0.5/FileZilla_3.9.0.5_win32-setup.exe/download?accel_key=57%3A1412952756%3Ahttps%253A//filezilla-project.org/download.php%253Ftype%253Dclient%3Aede19675%246aa7d8d4f40a3d7bbb27961414332ebf4d026ee3&click_id=131ea4de-508d-11e4-8a88-0200ac1d1d8b&source=accel"
+        Form2.TextBox2.Text = "C:\Downloads\FileZilla_3.9.0.5_win32-setup.exe"
         Form2.ShowDialog()
     End Sub
 

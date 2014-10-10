@@ -196,11 +196,11 @@ Partial Class post
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(609, 94)
+        Me.Label14.Location = New System.Drawing.Point(622, 94)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(101, 13)
+        Me.Label14.Size = New System.Drawing.Size(74, 13)
         Me.Label14.TabIndex = 66
-        Me.Label14.Text = "CCleaner 4.16.4763"
+        Me.Label14.Text = "CCleaner 4.18"
         '
         'Button17
         '
@@ -464,9 +464,9 @@ Partial Class post
         Me.Label12.AutoSize = True
         Me.Label12.Location = New System.Drawing.Point(617, 233)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(85, 13)
+        Me.Label12.Size = New System.Drawing.Size(76, 13)
         Me.Label12.TabIndex = 102
-        Me.Label12.Text = "LibreOffice 4.2.5"
+        Me.Label12.Text = "LibreOffice 4.3"
         '
         'Button12
         '

@@ -16,4 +16,14 @@
         TextBox1.Copy()
         MsgBox("The key is in the clipboard, paste in the installator")
     End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Dim webAddress As String = "http://windows.microsoft.com/en-us/windows/preview"
+        Process.Start(webAddress)
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Dim webAddress As String = "http://windows.microsoft.com/en-us/windows/preview"
+        Process.Start(webAddress)
+    End Sub
 End Class

@@ -36,8 +36,8 @@
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
-        Form2.TextBox1.Text = "http://download.piriform.com/ccsetup416.exe"
-        Form2.TextBox2.Text = "C:\Downloads\ccsetup416.exe"
+        Form2.TextBox1.Text = "http://download.piriform.com/ccsetup418.exe"
+        Form2.TextBox2.Text = "C:\Downloads\ccsetup418.exe"
         Form2.ShowDialog()
     End Sub
 
@@ -78,8 +78,8 @@
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        Form2.TextBox1.Text = "http://ftp.cixug.es/tdf/libreoffice/stable/4.2.5/win/x86/LibreOffice_4.2.5_Win_x86.msi"
-        Form2.TextBox2.Text = "C:\Downloads\LibreOffice_4.2.5_Win_x86.msi"
+        Form2.TextBox1.Text = "http://donate.libreoffice.org/home/dl/win-x86/4.3.2/es/LibreOffice_4.3.2_Win_x86.msi"
+        Form2.TextBox2.Text = "C:\Downloads\LibreOffice_4.3.2_Win_x86.msi"
         Form2.ShowDialog()
     End Sub
 

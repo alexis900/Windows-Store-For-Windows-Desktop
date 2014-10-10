@@ -56,6 +56,7 @@ Partial Class WindowsVer
         '
         'PictureBox1
         '
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.Windows_logo___2012
         Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
@@ -76,6 +77,7 @@ Partial Class WindowsVer
         '
         'PictureBox2
         '
+        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox2.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.Windows_logo___2012
         Me.PictureBox2.Location = New System.Drawing.Point(119, 12)
         Me.PictureBox2.Name = "PictureBox2"
