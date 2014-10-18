@@ -167,6 +167,18 @@
     <Compile Include="ubuntu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="w10tpx64.Designer.vb">
+      <DependentUpon>w10tpx64.vb</DependentUpon>
+    </Compile>
+    <Compile Include="w10tpx64.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="w10tpx86.Designer.vb">
+      <DependentUpon>w10tpx86.vb</DependentUpon>
+    </Compile>
+    <Compile Include="w10tpx86.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="webbrowsers.Designer.vb">
       <DependentUpon>webbrowsers.vb</DependentUpon>
     </Compile>
@@ -213,6 +225,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ubuntu.resx">
       <DependentUpon>ubuntu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w10tpx64.resx">
+      <DependentUpon>w10tpx64.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w10tpx86.resx">
+      <DependentUpon>w10tpx86.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="webbrowsers.resx">
       <DependentUpon>webbrowsers.vb</DependentUpon>

@@ -9,13 +9,13 @@
         Button1.Visible = False
         Button2.Visible = True
         'Windows
-        Form1.Button26.Visible = True
+        Form1.Button15.Visible = True
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Button2.Visible = False
         Button1.Visible = True
         'Windows
-        Form1.Button26.Visible = False
+        Form1.Button15.Visible = False
     End Sub
 End Class

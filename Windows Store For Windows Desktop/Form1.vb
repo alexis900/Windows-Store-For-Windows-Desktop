@@ -11,9 +11,6 @@ Public Class Form1
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Form2.TextBox1.Text = "https://download.mozilla.org/?product=firefox-stub&os=win&lang=es-ES"
         Form2.TextBox2.Text = "C:\Downloads\Firefox Setup Stub Lastest.exe"
-        Form2.TextBox2.Text = "C:\Downloads\Firefox Setup Stub Lastest.exe"
-        Form2.TextBox2.Text = "C:\Downloads\Firefox Setup Stub Lastest.exe"
-        Form2.TextBox2.Text = "C:\Downloads\Firefox Setup Stub Lastest.exe"
         Form2.ShowDialog()
     End Sub
     Private Sub UneditURLToolStripMenuItem_Click(sender As Object, e As EventArgs)
@@ -75,7 +72,7 @@ Public Class Form1
     End Sub
     Private Sub NewVersionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CheckUpdatesToolStripMenuItem.Click
         Try
-            System.Diagnostics.Process.Start("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0012.exe/download")
+            System.Diagnostics.Process.Start("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0013.exe/download")
         Catch
             'Code to hanle the error
         End Try
@@ -138,6 +135,7 @@ Public Class Form1
         ''AboutThis
         AboutThis.Button1.Text = "Activar modo de desarrollo"
         AboutThis.Button2.Text = "Desactivar modo de desarrollo"
+        AboutThis.Label1.Text = "Este programa no pretende fomentar la piratería"
         'Post
         post.Button1.Text = "Descargar"
         post.Button2.Text = "Descargar"
@@ -154,6 +152,41 @@ Public Class Form1
         post.Button23.Text = "Descargar"
         post.Button24.Text = "Descargar"
         post.Button25.Text = "Descargar"
+        'linux
+        'ubuntu
+        ubuntu.Button1.Text = "Descargar"
+        ubuntu.Button2.Text = "Descargar"
+        ubuntu.Button3.Text = "Descargar"
+        ubuntu.Button4.Text = "Descargar"
+        ubuntu.Button5.Text = "Descargar"
+        ubuntu.Button6.Text = "Descargar"
+        ubuntu.Button7.Text = "Descargar"
+        ubuntu.Button8.Text = "Descargar"
+        ubuntu.Button9.Text = "Descargar"
+        ubuntu.Button10.Text = "Descargar"
+        ubuntu.Button11.Text = "Descargar"
+        ubuntu.Button12.Text = "Descargar"
+        'android
+        androidx86.Button1.Text = "Descargar"
+        androidx86.Button2.Text = "Descargar"
+        androidx86.Button3.Text = "Descargar"
+        androidx86.Button4.Text = "Descargar"
+        androidx86.Button5.Text = "Descargar"
+        androidx86.Button6.Text = "Descargar"
+        androidx86.Button7.Text = "Descargar"
+        androidx86.Button8.Text = "Descargar"
+        androidx86.Button9.Text = "Descargar"
+        androidx86.Button10.Text = "Descargar"
+        androidx86.Button11.Text = "Descargar"
+        androidx86.Button12.Text = "Descargar"
+        androidx86.Button13.Text = "Descargar"
+        androidx86.Button14.Text = "Descargar"
+        androidx86.Button15.Text = "Descargar"
+        'linux distros
+        ld.Button1.Text = "Versión"
+        ld.Button2.Text = "Descargar"
+        ld.Button3.Text = "Descargar"
+        ld.Button12.Text = "Versión"
     End Sub
     Private Sub EnglishToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EnglishToolStripMenuItem.Click
         ''Form 1''
@@ -213,6 +246,8 @@ Public Class Form1
         ''AboutThis
         AboutThis.Button1.Text = "Activate the developer Mode"
         AboutThis.Button2.Text = "Deactivate the developer Mode"
+        AboutThis.Label1.Text = "This software doesn't attempt to encourage piracy"
+
         'Post
         post.Button1.Text = "Download"
         post.Button2.Text = "Download"
@@ -229,6 +264,41 @@ Public Class Form1
         post.Button23.Text = "Download"
         post.Button24.Text = "Download"
         post.Button25.Text = "Download"
+        'linux
+        'ubuntu
+        ubuntu.Button1.Text = "Download"
+        ubuntu.Button2.Text = "Download"
+        ubuntu.Button3.Text = "Download"
+        ubuntu.Button4.Text = "Download"
+        ubuntu.Button5.Text = "Download"
+        ubuntu.Button6.Text = "Download"
+        ubuntu.Button7.Text = "Download"
+        ubuntu.Button8.Text = "Download"
+        ubuntu.Button9.Text = "Download"
+        ubuntu.Button10.Text = "Download"
+        ubuntu.Button11.Text = "Download"
+        ubuntu.Button12.Text = "Download"
+        'android
+        androidx86.Button1.Text = "Download"
+        androidx86.Button2.Text = "Download"
+        androidx86.Button3.Text = "Download"
+        androidx86.Button4.Text = "Download"
+        androidx86.Button5.Text = "Download"
+        androidx86.Button6.Text = "Download"
+        androidx86.Button7.Text = "Download"
+        androidx86.Button8.Text = "Download"
+        androidx86.Button9.Text = "Download"
+        androidx86.Button10.Text = "Download"
+        androidx86.Button11.Text = "Download"
+        androidx86.Button12.Text = "Download"
+        androidx86.Button13.Text = "Download"
+        androidx86.Button14.Text = "Download"
+        androidx86.Button15.Text = "Download"
+        'linux distros
+        ld.Button1.Text = "Versions"
+        ld.Button2.Text = "Download"
+        ld.Button3.Text = "Download"
+        ld.Button12.Text = "Versions"
     End Sub
     Private Sub CatalanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CatalanToolStripMenuItem.Click
         ''Form 1''
@@ -287,6 +357,7 @@ Public Class Form1
         ''AboutThis
         AboutThis.Button1.Text = "Activa el mode de desenvolupador"
         AboutThis.Button2.Text = "Desctiva el mode de desenvolupador"
+        AboutThis.Label1.Text = "Aquest programa no pretén fomentar la pirateria"
         'Post
         post.Button1.Text = "Descarregar"
         post.Button2.Text = "Descarregar"
@@ -303,6 +374,41 @@ Public Class Form1
         post.Button23.Text = "Descarregar"
         post.Button24.Text = "Descarregar"
         post.Button25.Text = "Descarregar"
+        'linux
+        'ubuntu
+        ubuntu.Button1.Text = "Descarregar"
+        ubuntu.Button2.Text = "Descarregar"
+        ubuntu.Button3.Text = "Descarregar"
+        ubuntu.Button4.Text = "Descarregar"
+        ubuntu.Button5.Text = "Descarregar"
+        ubuntu.Button6.Text = "Descarregar"
+        ubuntu.Button7.Text = "Descarregar"
+        ubuntu.Button8.Text = "Descarregar"
+        ubuntu.Button9.Text = "Descarregar"
+        ubuntu.Button10.Text = "Descarregar"
+        ubuntu.Button11.Text = "Descarregar"
+        ubuntu.Button12.Text = "Descarregar"
+        'android
+        androidx86.Button1.Text = "Descarregar"
+        androidx86.Button2.Text = "Descarregar"
+        androidx86.Button3.Text = "Descarregar"
+        androidx86.Button4.Text = "Descarregar"
+        androidx86.Button5.Text = "Descarregar"
+        androidx86.Button6.Text = "Descarregar"
+        androidx86.Button7.Text = "Descarregar"
+        androidx86.Button8.Text = "Descarregar"
+        androidx86.Button9.Text = "Descarregar"
+        androidx86.Button10.Text = "Descarregar"
+        androidx86.Button11.Text = "Descarregar"
+        androidx86.Button12.Text = "Descarregar"
+        androidx86.Button13.Text = "Descarregar"
+        androidx86.Button14.Text = "Descarregar"
+        androidx86.Button15.Text = "Descarregar"
+        'linux distros
+        ld.Button1.Text = "Versions"
+        ld.Button2.Text = "Descarregar"
+        ld.Button3.Text = "Descarregar"
+        ld.Button12.Text = "Versions"
     End Sub
     Private Sub EuskeraToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EuskeraToolStripMenuItem.Click
         ''Form 1''
@@ -361,6 +467,7 @@ Public Class Form1
         ''AboutThis
         AboutThis.Button1.Text = "Aktiboak du modua du garatzailea"
         AboutThis.Button2.Text = "Txandaka du modua du garatzailea"
+        AboutThis.Label1.Text = "Software hau ez da saiakera pirateria sustatu nahi"
         'Post
         post.Button1.Text = "Jaitsi"
         post.Button2.Text = "Jaitsi"
@@ -377,6 +484,41 @@ Public Class Form1
         post.Button23.Text = "Jaitsi"
         post.Button24.Text = "Jaitsi"
         post.Button25.Text = "Jaitsi"
+        'linux
+        'ubuntu
+        ubuntu.Button1.Text = "Jaitsi"
+        ubuntu.Button2.Text = "Jaitsi"
+        ubuntu.Button3.Text = "Jaitsi"
+        ubuntu.Button4.Text = "Jaitsi"
+        ubuntu.Button5.Text = "Jaitsi"
+        ubuntu.Button6.Text = "Jaitsi"
+        ubuntu.Button7.Text = "Jaitsi"
+        ubuntu.Button8.Text = "Jaitsi"
+        ubuntu.Button9.Text = "Jaitsi"
+        ubuntu.Button10.Text = "Jaitsi"
+        ubuntu.Button11.Text = "Jaitsi"
+        ubuntu.Button12.Text = "Jaitsi"
+        'android
+        androidx86.Button1.Text = "Jaitsi"
+        androidx86.Button2.Text = "Jaitsi"
+        androidx86.Button3.Text = "Jaitsi"
+        androidx86.Button4.Text = "Jaitsi"
+        androidx86.Button5.Text = "Jaitsi"
+        androidx86.Button6.Text = "Jaitsi"
+        androidx86.Button7.Text = "Jaitsi"
+        androidx86.Button8.Text = "Jaitsi"
+        androidx86.Button9.Text = "Jaitsi"
+        androidx86.Button10.Text = "Jaitsi"
+        androidx86.Button11.Text = "Jaitsi"
+        androidx86.Button12.Text = "Jaitsi"
+        androidx86.Button13.Text = "Jaitsi"
+        androidx86.Button14.Text = "Jaitsi"
+        androidx86.Button15.Text = "Jaitsi"
+        'linux distros
+        ld.Button1.Text = "Bertsiona"
+        ld.Button2.Text = "Jaitsi"
+        ld.Button3.Text = "Jaitsi"
+        ld.Button12.Text = "Bertsiona"
     End Sub
     'Translations//
     Private Sub GaliciaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GaliciaToolStripMenuItem.Click
@@ -437,6 +579,7 @@ Public Class Form1
         ''AboutThis
         AboutThis.Button1.Text = "Activar o modo o desenvolvedor"
         AboutThis.Button2.Text = "Off o modo o desenvolvedor"
+        AboutThis.Label1.Text = "Este software non intenta fomentar a pirateria"
         'Post
         post.Button1.Text = "Descargar"
         post.Button2.Text = "Descargar"
@@ -453,6 +596,41 @@ Public Class Form1
         post.Button23.Text = "Descargar"
         post.Button24.Text = "Descargar"
         post.Button25.Text = "Descargar"
+        'linux
+        'ubuntu
+        ubuntu.Button1.Text = "Descargar"
+        ubuntu.Button2.Text = "Descargar"
+        ubuntu.Button3.Text = "Descargar"
+        ubuntu.Button4.Text = "Descargar"
+        ubuntu.Button5.Text = "Descargar"
+        ubuntu.Button6.Text = "Descargar"
+        ubuntu.Button7.Text = "Descargar"
+        ubuntu.Button8.Text = "Descargar"
+        ubuntu.Button9.Text = "Descargar"
+        ubuntu.Button10.Text = "Descargar"
+        ubuntu.Button11.Text = "Descargar"
+        ubuntu.Button12.Text = "Descargar"
+        'android
+        androidx86.Button1.Text = "Descargar"
+        androidx86.Button2.Text = "Descargar"
+        androidx86.Button3.Text = "Descargar"
+        androidx86.Button4.Text = "Descargar"
+        androidx86.Button5.Text = "Descargar"
+        androidx86.Button6.Text = "Descargar"
+        androidx86.Button7.Text = "Descargar"
+        androidx86.Button8.Text = "Descargar"
+        androidx86.Button9.Text = "Descargar"
+        androidx86.Button10.Text = "Descargar"
+        androidx86.Button11.Text = "Descargar"
+        androidx86.Button12.Text = "Descargar"
+        androidx86.Button13.Text = "Descargar"
+        androidx86.Button14.Text = "Descargar"
+        androidx86.Button15.Text = "Descargar"
+        'linux distros
+        ld.Button1.Text = "Versión"
+        ld.Button2.Text = "Descargar"
+        ld.Button3.Text = "Descargar"
+        ld.Button12.Text = "Versión"
     End Sub
 
     Private Sub PortugeseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PortugeseToolStripMenuItem.Click
@@ -511,6 +689,7 @@ Public Class Form1
         ''AboutThis
         AboutThis.Button1.Text = "Ative modo de desenvolvedor"
         AboutThis.Button2.Text = "Off modo de desenvolvedor"
+        AboutThis.Label1.Text = "Este software não tenta incetivar a pirateria"
         'Post
         post.Button1.Text = "Baixar"
         post.Button2.Text = "Baixar"
@@ -527,6 +706,41 @@ Public Class Form1
         post.Button23.Text = "Baixar"
         post.Button24.Text = "Baixar"
         post.Button25.Text = "Baixar"
+        'linux
+        'ubuntu
+        ubuntu.Button1.Text = "Baixar"
+        ubuntu.Button2.Text = "Baixar"
+        ubuntu.Button3.Text = "Baixar"
+        ubuntu.Button4.Text = "Baixar"
+        ubuntu.Button5.Text = "Baixar"
+        ubuntu.Button6.Text = "Baixar"
+        ubuntu.Button7.Text = "Baixar"
+        ubuntu.Button8.Text = "Baixar"
+        ubuntu.Button9.Text = "Baixar"
+        ubuntu.Button10.Text = "Baixar"
+        ubuntu.Button11.Text = "Baixar"
+        ubuntu.Button12.Text = "Baixar"
+        'android
+        androidx86.Button1.Text = "Baixar"
+        androidx86.Button2.Text = "Baixar"
+        androidx86.Button3.Text = "Baixar"
+        androidx86.Button4.Text = "Baixar"
+        androidx86.Button5.Text = "Baixar"
+        androidx86.Button6.Text = "Baixar"
+        androidx86.Button7.Text = "Baixar"
+        androidx86.Button8.Text = "Baixar"
+        androidx86.Button9.Text = "Baixar"
+        androidx86.Button10.Text = "Baixar"
+        androidx86.Button11.Text = "Baixar"
+        androidx86.Button12.Text = "Baixar"
+        androidx86.Button13.Text = "Baixar"
+        androidx86.Button14.Text = "Baixar"
+        androidx86.Button15.Text = "Baixar"
+        'linux distros
+        ld.Button1.Text = "Versão"
+        ld.Button2.Text = "Baixar"
+        ld.Button3.Text = "Baixar"
+        ld.Button12.Text = "Versão"
     End Sub
 
     Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
