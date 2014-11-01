@@ -1,5 +1,4 @@
-﻿'747
-Public Class Form1
+﻿Public Class Form1
 
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -869,5 +868,116 @@ Public Class Form1
 
     Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
         ld.ShowDialog()
+    End Sub
+
+    Private Sub FrenchToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FrenchToolStripMenuItem.Click
+        ''Form 1''
+        Me.Text = "Windows Magasin pour le bureau de Windows"
+        'Descargar'
+        Button1.Text = "Tétéchargement"
+        Button2.Text = "Tétéchargement"
+        Button3.Text = "Tétéchargement"
+        Button5.Text = "Tétéchargement"
+        Button7.Text = "Tétéchargement"
+        Button8.Text = "Tétéchargement"
+        Button9.Text = "Tétéchargement"
+        Button10.Text = "Tétéchargement"
+        Button13.Text = "Tétéchargement"
+        Button14.Text = "Tétéchargement"
+        Button11.Text = "Tétéchargement"
+        Button12.Text = "Tétéchargement"
+        Button16.Text = "Tétéchargement"
+        Button17.Text = "Tétéchargement"
+        Button18.Text = "Tétéchargement"
+        Button19.Text = "Tétéchargement"
+        Button20.Text = "Tétéchargement"
+        Button21.Text = "Tétéchargement"
+        Button22.Text = "Tétéchargement"
+        Button23.Text = "Tétéchargement"
+        Button24.Text = "Tétéchargement"
+        Button25.Text = "Tétéchargement"
+        'Categorias'
+        Button4.Text = "Navigateurs Web"
+        'ToolStripMenu'
+        ToolStripMenuItem1.Text = "Paramètres"
+        ToolStripMenuItem2.Text = "À ce sujet"
+        ToolStripMenuItem3.Text = "Sortie"
+        OpenDownloaderToolStripMenuItem.Text = "Downloader"
+        TranslatorToolStripMenuItem.Text = "Traductor"
+        EnglishToolStripMenuItem.Text = "Inglés"
+        SpanishToolStripMenuItem.Text = "Español"
+        CatalanToolStripMenuItem.Text = "Catalán"
+        GaliciaToolStripMenuItem.Text = "Gallego"
+        PortugeseToolStripMenuItem.Text = "Portugués"
+        CheckUpdatesToolStripMenuItem.Text = "Buscar actualizaciones"
+        ''Form 2''
+        Form2.Text = "Descargador"
+        Form2.Button1.Text = "Descargar"
+        Form2.Label2.Text = "Directorio"
+        Form2.MenuToolStripMenuItem.Text = "Ajustes"
+        Form2.EditURLToolStripMenuItem.Text = "Editar URL"
+        Form2.UneditURLToolStripMenuItem.Text = "Dejar de editar la URL"
+        Form2.Button4.Text = "Abrir"
+        Form2.Button3.Text = "Abrir"
+        ''Web Browsers''
+        webbrowsers.Button1.Text = "Tétéchargement"
+        webbrowsers.Button2.Text = "Tétéchargement"
+        ''About that...''
+        AboutThis.Text = "Acerca de..."
+        ''AboutThis
+        AboutThis.Button1.Text = "Activar modo de desarrollo"
+        AboutThis.Button2.Text = "Desactivar modo de desarrollo"
+        AboutThis.Label1.Text = "Este programa no pretende fomentar la piratería"
+        'Post
+        post.Button1.Text = "Tétéchargement"
+        post.Button2.Text = "Tétéchargement"
+        post.Button3.Text = "Tétéchargement"
+        post.Button7.Text = "Tétéchargement"
+        post.Button8.Text = "Tétéchargement"
+        post.Button9.Text = "Tétéchargement"
+        post.Button11.Text = "Tétéchargement"
+        post.Button12.Text = "Tétéchargement"
+        post.Button14.Text = "Tétéchargement"
+        post.Button16.Text = "Tétéchargement"
+        post.Button17.Text = "Tétéchargement"
+        post.Button19.Text = "Tétéchargement"
+        post.Button23.Text = "Tétéchargement"
+        post.Button24.Text = "Tétéchargement"
+        post.Button25.Text = "Tétéchargement"
+        'linux
+        'ubuntu
+        ubuntu.Button1.Text = "Tétéchargement"
+        ubuntu.Button2.Text = "Tétéchargement"
+        ubuntu.Button3.Text = "Tétéchargement"
+        ubuntu.Button4.Text = "Tétéchargement"
+        ubuntu.Button5.Text = "Tétéchargement"
+        ubuntu.Button6.Text = "Tétéchargement"
+        ubuntu.Button7.Text = "Tétéchargement"
+        ubuntu.Button8.Text = "Tétéchargement"
+        ubuntu.Button9.Text = "Tétéchargement"
+        ubuntu.Button10.Text = "Tétéchargement"
+        ubuntu.Button11.Text = "Tétéchargement"
+        ubuntu.Button12.Text = "Tétéchargement"
+        'android
+        androidx86.Button1.Text = "Tétéchargement"
+        androidx86.Button2.Text = "Tétéchargement"
+        androidx86.Button3.Text = "Tétéchargement"
+        androidx86.Button4.Text = "Tétéchargement"
+        androidx86.Button5.Text = "Tétéchargement"
+        androidx86.Button6.Text = "Tétéchargement"
+        androidx86.Button7.Text = "Tétéchargement"
+        androidx86.Button8.Text = "Tétéchargement"
+        androidx86.Button9.Text = "Tétéchargement"
+        androidx86.Button10.Text = "Tétéchargement"
+        androidx86.Button11.Text = "Tétéchargement"
+        androidx86.Button12.Text = "Tétéchargement"
+        androidx86.Button13.Text = "Tétéchargement"
+        androidx86.Button14.Text = "Tétéchargement"
+        androidx86.Button15.Text = "Tétéchargement"
+        'linux distros
+        ld.Button1.Text = "Version"
+        ld.Button2.Text = "Tétéchargement"
+        ld.Button3.Text = "Tétéchargement"
+        ld.Button12.Text = "Version"
     End Sub
 End Class
