@@ -38,7 +38,7 @@
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-        Form2.TextBox1.Text = "http://aihdownload.adobe.com/bin/live/install_flashplayer14x32_mssd_aaa_aih.exe"
+        Form2.TextBox1.Text = "http://aihdownload.adobe.com/bin/live/install_flashplayer15x32_mssd_aaa_aih.exe"
         Form2.TextBox2.Text = "C:\Downloads\install_flashplayer14x32_mssd_aaa_aih.exe"
         Form2.ShowDialog()
     End Sub
@@ -71,7 +71,7 @@
     End Sub
     Private Sub NewVersionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CheckUpdatesToolStripMenuItem.Click
         Try
-            System.Diagnostics.Process.Start("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0013.exe/download")
+            System.Diagnostics.Process.Start("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0014.exe/download")
         Catch
             'Code to hanle the error
         End Try
@@ -116,6 +116,7 @@
         CatalanToolStripMenuItem.Text = "Catalán"
         GaliciaToolStripMenuItem.Text = "Gallego"
         PortugeseToolStripMenuItem.Text = "Portugués"
+        FrenchToolStripMenuItem.Text = "Francés"
         CheckUpdatesToolStripMenuItem.Text = "Buscar actualizaciones"
         ''Form 2''
         Form2.Text = "Descargador"
@@ -226,6 +227,7 @@
         CatalanToolStripMenuItem.Text = "Catalan"
         GaliciaToolStripMenuItem.Text = "Galician"
         PortugeseToolStripMenuItem.Text = "Portugese"
+        FrenchToolStripMenuItem.Text = "French"
         CheckUpdatesToolStripMenuItem.Text = "Check Updates"
 
         ''Form 2''
@@ -338,6 +340,7 @@
         CatalanToolStripMenuItem.Text = "Català"
         GaliciaToolStripMenuItem.Text = "Gallego"
         PortugeseToolStripMenuItem.Text = "Portuguès"
+        FrenchToolStripMenuItem.Text = "Francès"
         CheckUpdatesToolStripMenuItem.Text = "Cerca actualitzacions"
         ''Form 2''
         Form2.Text = "Descarregador"
@@ -448,6 +451,7 @@
         CatalanToolStripMenuItem.Text = "Catalan"
         GaliciaToolStripMenuItem.Text = "Gallego"
         PortugeseToolStripMenuItem.Text = "Portugesa"
+        FrenchToolStripMenuItem.Text = "Frantziako"
         CheckUpdatesToolStripMenuItem.Text = "bilatu nahi eguneratzerik"
         ''Form 2''
         Form2.Text = "Downloader"
@@ -559,6 +563,7 @@
         CatalanToolStripMenuItem.Text = "Catalán"
         GaliciaToolStripMenuItem.Text = "Gallego"
         PortugeseToolStripMenuItem.Text = "Portugués"
+        FrenchToolStripMenuItem.Text = "Francés"
         CheckUpdatesToolStripMenuItem.Text = "Buscar actualizacións"
         ''Form 2''
         Form2.Text = "Download"
@@ -764,7 +769,7 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim url As New System.Uri("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0013.exe/download")
+        Dim url As New System.Uri("https://sourceforge.net/projects/windowsstoreforwindowsdesktop/files/ALPHA/0014.exe/download")
         Dim req As System.Net.WebRequest
         req = System.Net.WebRequest.Create(url)
         Dim resp As System.Net.WebResponse
@@ -772,7 +777,7 @@
             resp = req.GetResponse()
             resp.Close()
             req = Nothing
-            MsgBox("Updates avaliable:" + "  0.0.1.3")
+            MsgBox("Updates avaliable:" + "  0.0.1.4")
         Catch ex As Exception
             req = Nothing
             MsgBox("No updates available or check your internet conexion")
@@ -904,30 +909,30 @@
         ToolStripMenuItem3.Text = "Sortie"
         OpenDownloaderToolStripMenuItem.Text = "Downloader"
         TranslatorToolStripMenuItem.Text = "Traductor"
-        EnglishToolStripMenuItem.Text = "Inglés"
-        SpanishToolStripMenuItem.Text = "Español"
-        CatalanToolStripMenuItem.Text = "Catalán"
-        GaliciaToolStripMenuItem.Text = "Gallego"
-        PortugeseToolStripMenuItem.Text = "Portugués"
-        CheckUpdatesToolStripMenuItem.Text = "Buscar actualizaciones"
+        EnglishToolStripMenuItem.Text = "Anglais"
+        SpanishToolStripMenuItem.Text = "Espagnol"
+        CatalanToolStripMenuItem.Text = "Catalan"
+        GaliciaToolStripMenuItem.Text = "Galicien"
+        PortugeseToolStripMenuItem.Text = "Portugais"
+        CheckUpdatesToolStripMenuItem.Text = "Rechercher mises à jour"
         ''Form 2''
         Form2.Text = "Descargador"
-        Form2.Button1.Text = "Descargar"
-        Form2.Label2.Text = "Directorio"
-        Form2.MenuToolStripMenuItem.Text = "Ajustes"
-        Form2.EditURLToolStripMenuItem.Text = "Editar URL"
-        Form2.UneditURLToolStripMenuItem.Text = "Dejar de editar la URL"
-        Form2.Button4.Text = "Abrir"
-        Form2.Button3.Text = "Abrir"
+        Form2.Button1.Text = "Downloader"
+        Form2.Label2.Text = "annuaire"
+        Form2.MenuToolStripMenuItem.Text = "paramètres"
+        Form2.EditURLToolStripMenuItem.Text = "éditer URL"
+        Form2.UneditURLToolStripMenuItem.Text = "laisser de éditer la URL"
+        Form2.Button4.Text = "ouvert"
+        Form2.Button3.Text = "ouvert"
         ''Web Browsers''
         webbrowsers.Button1.Text = "Tétéchargement"
         webbrowsers.Button2.Text = "Tétéchargement"
         ''About that...''
         AboutThis.Text = "Acerca de..."
         ''AboutThis
-        AboutThis.Button1.Text = "Activar modo de desarrollo"
-        AboutThis.Button2.Text = "Desactivar modo de desarrollo"
-        AboutThis.Label1.Text = "Este programa no pretende fomentar la piratería"
+        AboutThis.Button1.Text = "activer mode de développement"
+        AboutThis.Button2.Text = "désactiver mode de développement"
+        AboutThis.Label1.Text = "Ce programme vise à promouvoir le piratage"
         'Post
         post.Button1.Text = "Tétéchargement"
         post.Button2.Text = "Tétéchargement"
