@@ -1,4 +1,5 @@
-﻿Public Class Form1
+﻿'747
+Public Class Form1
 
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -874,6 +875,7 @@
     Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
         ld.ShowDialog()
     End Sub
+<<<<<<< HEAD
 
     Private Sub FrenchToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FrenchToolStripMenuItem.Click
         ''Form 1''
@@ -985,4 +987,6 @@
         ld.Button3.Text = "Tétéchargement"
         ld.Button12.Text = "Version"
     End Sub
+=======
+>>>>>>> parent of c160ab0... 31/11/2014
 End Class

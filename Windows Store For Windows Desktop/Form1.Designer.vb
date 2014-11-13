@@ -258,6 +258,7 @@ Partial Class Form1
         '
         'FrenchToolStripMenuItem
         '
+        Me.FrenchToolStripMenuItem.Enabled = False
         Me.FrenchToolStripMenuItem.Image = Global.Windows_Store_For_Windows_Desktop.My.Resources.Resources.f
         Me.FrenchToolStripMenuItem.Name = "FrenchToolStripMenuItem"
         Me.FrenchToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
